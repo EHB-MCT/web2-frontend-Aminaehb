@@ -1,0 +1,150 @@
+ /*////////////////////////////HEADER///////////////////////////////*/
+ body {
+    margin: 0;
+    font-family: "quicksilver";
+    background-image: url(/background.png);
+    background-size: auto;
+}
+
+
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+
+header {
+    background-color: white;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+header::after {
+    content: '';
+    display: table;
+    clear: both;
+}
+
+
+nav {
+    float: right;
+
+}
+
+nav ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+nav li {
+    display: inline-block;
+    margin-left: 70px;
+    padding-top: 20px;
+
+}
+
+nav li a:hover {
+    color: rgba(0, 0, 0, 0.500);
+}
+
+nav a {
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    padding-right: 100px;
+}
+
+.icon-camera:before {
+    content: "\e90f";
+    color: black;
+    font-size: 25px;
+}
+
+
+.logo {
+    height: auto;
+    width: auto;
+    max-height: 70px;
+    max-width: 250px;
+    float: left;
+}
+
+/*////////////////////////////END HEADER///////////////////////////////*/
+/*////////////////////////////FIRST PAGE///////////////////////////////*/
+.imgheader {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+}
+
+
+/*////////////////////////////END FIRSTPAGE///////////////////////////////*/
+/*////////////////////////////FOOTER///////////////////////////////*/
+footer {
+    background-color: white;
+    width: 100%;
+    padding: 10px 0;
+}
+
+
+a #div1,
+a #div2 {
+    width: 50%;
+    font-size: 20px;
+    float: left;
+    text-align: center;
+    color: black;
+}
+
+#div1:hover {
+    color: rgba(0, 0, 0, 0.500);
+}
+
+#div2:hover {
+    color: rgba(0, 0, 0, 0.500);
+}
+
+
+
+ul .social1 {
+    text-align: center;
+    padding-top: 2px;
+    width: 50%;
+    float: left;
+    list-style: none;
+}
+
+
+
+ul .social2 {
+    text-align: center;
+    padding-top: 5px;
+
+}
+
+.social1 a {
+    text-decoration: none;
+}
+
+.social2 a {
+    text-decoration: none;
+}
+
+.icon-facebook:before {
+    content: "\ea90";
+    color: black;
+    font-size: 25px;
+
+}
+
+.icon-instagram:before {
+    content: "\ea92";
+    color: black;
+    font-size: 25px;
+}
+
+/*////////////////////////////END FOOTER///////////////////////////////*/
