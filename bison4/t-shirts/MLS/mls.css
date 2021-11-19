@@ -7,8 +7,9 @@
 body {
     margin: 0;
     font-family: "quicksilver";
-    background-image: url();
-    background-size: auto;
+    background-image: url(/bison4/t-shirts/MLS/bgmls.png);
+    background-size: 100%;
+    background-repeat: no-repeat
 }
 
 
@@ -132,6 +133,7 @@ a li {
 }
 
 /*//////////////////////////// END MAIN BUTTONS///////////////////////////////*/
+/*//////////////////////////// ITEM WITH INFO///////////////////////////////*/
 * {
     box-sizing: border-box;
 }
@@ -192,77 +194,51 @@ a li {
     margin-left: 25px;
 }
 
-@keyframes flicker {
-
-    0%,
-    18%,
-    22%,
-    25%,
-    53%,
-    57%,
-    100% {
-
-        text-shadow:
-            0 0 4px #fff,
-            0 0 11px #fff,
-            0 0 19px #fff,
-            0 0 40px rgb(25, 0, 255),
-            0 0 80px rgb(25, 0, 255),
-            0 0 90px rgb(25, 0, 255),
-            0 0 100px rgb(25, 0, 255),
-            0 0 150px rgb(25, 0, 255);
-
-    }
-
-    20%,
-    24%,
-    55% {
-        text-shadow: none;
-    }
-}
-
 .details h1 {
-    text-shadow: 1px 1px 20px rgba(0, 0, 255, 0.459);
+    text-shadow: 1px 1px 20px orange;
     font-weight: 300;
     font-size: 55px;
-    animation: flicker 1s infinite alternate;
 }
 
 .details #price {
     font-weight: 300;
-    font-size: 25px;
+    font-size: 35px;
 }
 
 .details #shop {
-    font-weight: 300;
-    font-size: 15px;
+    font-weight: 200;
+    font-size: 20px;
 }
+
 
 .details .list {
     list-style: none;
     text-decoration: none;
-    margin-right: 70px;
+    font-size: 15px;
+    font-weight: 100;
+    right: 25vw;
+    bottom: 5vh;
+    position: absolute;
 }
 
-
-
+/*//////////////////////////// END ITEM WITH INFO///////////////////////////////*/
 
 /*////////////////////////////MATCH IT WITH///////////////////////////////*/
+
 .columnchoose1,
 .columnchoose2,
 .columnchoose3 {
     float: right;
     width: 33.33%;
-    margin-bottom: 150px;
 }
 
-.columnchoose1 #polaroid,
-.columnchoose2 #polaroid,
-.columnchoose3 #polaroid {
+.columnchoose1 #polaroid img,
+.columnchoose2 #polaroid img,
+.columnchoose3 #polaroid img {
     background: #ffffff;
     display: inline-block;
     margin: 55px 15px 30px;
-    padding: 15px 15px 30px;
+    padding: 15px 15px 100px;
     text-align: center;
     text-decoration: none;
     -webkit-box-shadow: 0 4px 6px rgba(0, 0, 0, .3);
@@ -275,36 +251,84 @@ a li {
     position: relative;
 }
 
-
-
-.columnchoose1 img {
+.columnchoose1 #polaroid img {
     margin-left: 80px;
     display: block;
     width: 250px;
 }
 
-.columnchoose2 img {
+.columnchoose2 #polaroid img {
     margin-left: 40px;
     display: block;
     width: 250px;
 }
 
-.columnchoose3 img {
-    margin-right: 70px;
+.columnchoose3 #polaroid img {
+    margin-right: 40px;
     display: block;
     width: 250px;
 }
 
 .rowchoose h1 {
     margin-left: 80px;
-    font-size: 40px;
+    font-size: 50px;
+    text-shadow: 1px 1px 20px orange;
+    margin-top: 5px;
 }
 
-/* Clear floats after image containers */
 .rowchoose::after {
     content: "";
     clear: both;
     display: table;
+}
+
+.columnchoose1 #polaroid,
+.columnchoose2 #polaroid,
+.columnchoose3 #polaroid {
+    position: relative;
+    bottom: 5vh;
+}
+
+.sunglasses h4,
+.bob h4,
+.rings h4 {
+    position: absolute;
+    font-size: 25px;
+    font-weight: 200;
+    bottom: 30px;
+}
+
+.sunglasses h4 {
+    left: 100px;
+}
+
+.bob h4 {
+    left: 60px;
+}
+
+.rings h4 {
+    left: 35px;
+}
+
+.sunglasses p,
+.bob p,
+.rings p {
+    position: absolute;
+    font-size: 17px;
+    font-weight: 200;
+    bottom: 10px;
+}
+
+.sunglasses p {
+    left: 100px;
+}
+
+.bob p {
+    left: 60px;
+}
+
+.rings p {
+    left: 35px;
 }
 
 /*////////////////////////////END MATCH IT WITH///////////////////////////////*/
@@ -316,6 +340,9 @@ footer {
     padding: 10px 0;
 }
 
+ul a {
+    color: black;
+}
 
 #div1,
 #div2 {
@@ -323,6 +350,7 @@ footer {
     font-size: 20px;
     float: left;
     text-align: center;
+    text-decoration: none;
 }
 
 #div1:hover {
@@ -344,11 +372,10 @@ ul .social1 {
 }
 
 
-
 ul .social2 {
     text-align: center;
     padding-top: 5px;
-
+    text-decoration: none;
 }
 
 .social1 a {
