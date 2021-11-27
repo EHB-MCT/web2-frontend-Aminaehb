@@ -10,7 +10,6 @@ body {
     background-image: url(/bison4/accesoires/bgaccesoires.png);
     background-size: 120%;
     background-repeat: no-repeat
-
 }
 
 
@@ -154,17 +153,15 @@ a li {
 
 }
 
-@font-face {
-    font-family: uni-sans;
-    src: url("/bison\ 4/uni-sans/");
-}
-
+.content h3,
 .content1 h3 {
-    font-weight: 200;
+    font-weight: 100;
 }
 
+.content p,
 .content1 p {
-    font-weight: 50;
+    font-family: Uni sans;
+    font-weight: light;
 }
 
 .row,

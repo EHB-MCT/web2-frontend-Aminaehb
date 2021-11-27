@@ -7,7 +7,7 @@
  body {
      margin: 0;
      font-family: "quicksilver";
-     background-image: url(/bison4/bgabout.png);
+     background-image: url(/bison4/bgbison.png);
      background-size: 100%;
      background-repeat: no-repeat;
  }
@@ -128,7 +128,7 @@
  /*//////////////////////////// END MAIN BUTTONS///////////////////////////////*/
 
  /*//////////////////////////// ABOUT CONTEXT///////////////////////////////*/
- 
+
  .title h1 {
      background-color: white;
      font-size: 40px;
@@ -139,20 +139,24 @@
  }
 
  .title h2 {
-     font-size: 30px;
+     font-family: uni sans;
+     font-weight: bolder;
+     font-size: 40px;
      margin: 20px 0px 0px 400px;
  }
 
  #second {
-    font-size: 25px;
-    font-weight: 200;
+     font-family: uni sans;
+     font-size: 25px;
+     font-weight: bolder;
+     font-style: italic;
  }
 
  .title p {
-     font-size: 20px;
+     font-family: uni sans;
+     font-size: 25px;
      margin: 10px 0px 0px 400px;
-     font-weight: 100;
-
+     text-shadow: 3px 1px 10px white;
  }
 
  .imagesabout {

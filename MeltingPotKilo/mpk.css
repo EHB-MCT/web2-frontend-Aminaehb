@@ -1,9 +1,15 @@
  /*////////////////////////////HEADER///////////////////////////////*/
+ * {
+     box-sizing: border-box;
+ }
+
+
  body {
      margin: 0;
      font-family: "quicksilver";
-     background-image: url(/background.png);
-     background-size: auto;
+     background-image: url(/MeltingPotKilo/bgmpk.png);
+     background-size: 100%;
+     background-repeat: no-repeat;
  }
 
 
@@ -19,6 +25,7 @@
      position: fixed;
      top: 0;
      width: 100%;
+     z-index: 10;
  }
 
  header::after {
@@ -74,61 +81,90 @@
 
  /*//////////////////////////// END HEADER///////////////////////////////*/
  /*//////////////////////////// MAIN BUTTONS///////////////////////////////*/
- @font-face {
-     font-family: uni-sans;
-     src: url("VCR_OSD_MONO_1.001.ttf");
-
- }
 
  .mainbuttons {
-     font-family: uni-sans;
      list-style: none;
      display: inline-block;
-     margin-top: 10%;
+     margin-top: 0%;
      font-size: 18px;
      padding-left: 70px;
+     font-family: quicksilver;
+     z-index: 1;
+     position: absolute;
  }
 
  .mainbuttons a {
      text-decoration: none;
-     color: #DED1BB;
+     color: black;
      margin: 5px;
      text-align: center;
  }
 
  a li:hover {
-     background-color: #475338;
+     background-color: rgba(128, 128, 128, 0.493);
  }
 
  a li {
      padding: 7px;
-     background-color: #829569;
+     background-color: white;
      padding-left: 25px;
      padding-right: 25px;
      padding-top: 13px;
-     padding-bottom: 13px;
+     padding-bottom: 10px;
  }
 
  .aboutbutton #about {
-     background-color: #475338;
+     background-color: rgba(128, 128, 128, 0.493);
      margin-top: 30px;
  }
 
- #logomelting {
+ .mainbuttons #logompk {
      height: auto;
      width: auto;
-     max-width: 150px;
+     max-width: 160px;
      margin-bottom: 50px;
- }
-
- img {
-     width: 1000px;
-     height: 300px;
  }
 
  /*//////////////////////////// END MAIN BUTTONS///////////////////////////////*/
 
+ /*//////////////////////////// ABOUT CONTEXT///////////////////////////////*/
 
+ .title h1 {
+     background-color: white;
+     font-size: 40px;
+     margin: 120px 0px 30px 400px;
+     padding: 10px 55px 10px;
+     width: 245px;
+     font-weight: 200;
+ }
+
+ .title h2 {
+    font-family: uni sans;
+     font-size: 40px;
+     margin: 20px 0px 0px 400px;
+ }
+
+ #secondtitle {
+     font-size: 25px;
+     font-family: uni sans;
+     font-style: italic;
+     font-weight: bold;
+ }
+
+ .title p {
+     font-family: uni sans;
+     font-weight: lighter;
+     font-size: 25px;
+     margin: 10px 0px 0px 400px;
+     text-shadow: 3px 1px 10px white;
+
+ }
+
+ .imagesabout {
+     margin: 100px -1px 50px 20px;
+ }
+
+ /*//////////////////////////// END ABOUT CONTEXT///////////////////////////////*/
 
  /*////////////////////////////FOOTER///////////////////////////////*/
  footer {
