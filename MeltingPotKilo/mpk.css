@@ -101,7 +101,8 @@
  }
 
  a li:hover {
-     background-color: rgba(128, 128, 128, 0.493);
+     background-image: url(/bgbutton.png);
+     color: white;
  }
 
  a li {
@@ -114,7 +115,8 @@
  }
 
  .aboutbutton #about {
-     background-color: rgba(128, 128, 128, 0.493);
+     background-image: url(/bgbutton.png);
+     color: white;
      margin-top: 30px;
  }
 
@@ -139,7 +141,7 @@
  }
 
  .title h2 {
-    font-family: uni sans;
+     font-family: uni sans;
      font-size: 40px;
      margin: 20px 0px 0px 400px;
  }

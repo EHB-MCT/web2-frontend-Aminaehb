@@ -110,6 +110,7 @@ a li {
     padding-right: 25px;
     padding-top: 13px;
     padding-bottom: 10px;
+    font-weight: 100;
 }
 
 .aboutbutton #about {
@@ -117,13 +118,11 @@ a li {
 }
 
 .aboutbutton #about:hover {
-    background-color: rgba(128, 128, 128, 0.493);
-
+    background-image: url(/bgbutton.png);
 }
 
 .blousesbutton #blouses {
-    background-color: rgba(128, 128, 128, 0.493);
-
+    background-image: url(/bgbutton.png);
 }
 
 .mainbuttons #logompk {

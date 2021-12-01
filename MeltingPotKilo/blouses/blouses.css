@@ -112,9 +112,8 @@ nav a {
 }
 
 a li:hover {
-    background-color: rgba(128, 128, 128, 0.493);
-
-
+    background-image: url(/bgbutton.png);
+    color: white;
 }
 
 a li {
@@ -131,7 +130,8 @@ a li {
 }
 
 .blousesbutton #blouses {
-    background-color: rgba(128, 128, 128, 0.493);
+    background-image: url(/bgbutton.png);
+    color: white;
 
 }
 

@@ -91,6 +91,7 @@
      font-family: quicksilver;
      z-index: 1;
      position: absolute;
+
  }
 
  .mainbuttons a {
@@ -98,10 +99,12 @@
      color: black;
      margin: 5px;
      text-align: center;
+
  }
 
  a li:hover {
-     background-color: rgba(128, 128, 128, 0.493);
+    background-image: url(/bgbutton.png);
+    color: white;
  }
 
  a li {
@@ -114,8 +117,9 @@
  }
 
  .aboutbutton #about {
-     background-color: rgba(128, 128, 128, 0.493);
+     background-image: url(/bgbutton.png);
      margin-top: 30px;
+     color: white;
  }
 
  .mainbuttons #logobison {
