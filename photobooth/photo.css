@@ -75,19 +75,44 @@
 
  /*////////////////////////////END HEADER///////////////////////////////*/
  /*////////////////////////////IMAGES///////////////////////////////*/
+
  h1 {
      color: black;
-     font-size: 100px;
+     font-size: 110px;
      text-align: center;
+     margin: 10px;
+     margin-top: 10vh;
+
  }
 
  h2 {
+     margin: 10px;
      text-align: center;
+ }
+
+ h3 {
+     text-align: center;
+     margin: 10px;
  }
 
  p {
      text-align: center;
  }
+
+ #upload {
+     color: black;
+ }
+
+ .fa {
+     margin-left: 46vw;
+     font-size: 150px;
+ }
+
+ .fa:hover,
+ #upload:hover {
+     color: rgba(0, 0, 0, 0.500);
+ }
+
 
  .imagespeople {
      display: block;

@@ -100,7 +100,9 @@ nav a {
 }
 
 a li:hover {
-    background-color: rgba(128, 128, 128, 0.493);
+    background-image: url(/bgbutton.png);
+    color: white;
+    font-weight: 100;
 }
 
 a li {
@@ -111,19 +113,19 @@ a li {
     padding-top: 13px;
     padding-bottom: 10px;
     font-weight: 100;
+
 }
 
 .aboutbutton #about {
     margin-top: 30px;
 }
 
-.aboutbutton #about:hover {
-    background-image: url(/bgbutton.png);
-}
 
 .blousesbutton #blouses {
     background-image: url(/bgbutton.png);
+    color: white;
 }
+
 
 .mainbuttons #logompk {
     height: auto;
