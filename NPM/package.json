@@ -16,5 +16,11 @@
   "bugs": {
     "url": "https://github.com/EHB-MCT/web2-frontend-Aminaehb/issues"
   },
-  "homepage": "https://github.com/EHB-MCT/web2-frontend-Aminaehb#readme"
+  "homepage": "https://github.com/EHB-MCT/web2-frontend-Aminaehb#readme",
+  "dependencies": {
+    "filestack-js": "^3.25.0"
+  },
+  "devDependencies": {
+    "webpack-cli": "^4.9.1"
+  }
 }
