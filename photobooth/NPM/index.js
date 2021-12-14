@@ -1,4 +1,9 @@
+import * as filestack from './filestack-js';
+const client = filestack.init('AxN8ROZz3T8azRC4SxHcQz');
+const fileObject = document.querySelector('#fileObject');
+client.upload(fileObject).then(data => console.log(data.url));
 
+client.picker().open();
 
 window.addEventListener('DOMContentLoaded', function () {
     const apikey = 'AxN8ROZz3T8azRC4SxHcQz';
@@ -20,20 +25,3 @@ window.addEventListener('DOMContentLoaded', function () {
     };
     client.picker(options).open();
 });
-
-
-const showImages = (res) => {
-    console.log(res);
-    let imageContainer = document.createElement('div'); // create a div element in js
-    res.filesUploaded.forEach(image => {
-        let imageDiv = document.createElement('img');
-        console.log(image.url)
-        imageDiv.setAttribute('src', image.url);
-        imageContainer.appendChild(imageDiv);
-    });
-    document.body.appendChild(imageContainer);
-}
-//https://jsfiddle.net/gh/get/library/pure/filestack/filestack-js/tree/master/examples/picker
-
-//A8ottKMzuQbG0MJ618CPnz = key school account
-//AxN8ROZz3T8azRC4SxHcQz = key gmail account
