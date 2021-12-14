@@ -103,13 +103,15 @@
      color: black;
  }
 
- .fa {
+ .fa  a{
+     color: black;
      margin-left: 46vw;
      font-size: 150px;
+     text-decoration: none;
  }
 
- .fa:hover,
- #upload:hover {
+ .fa a:hover,
+ #upload a:hover {
      color: rgba(0, 0, 0, 0.500);
  }
 

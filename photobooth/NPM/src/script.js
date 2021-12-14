@@ -1,5 +1,4 @@
 
-
 window.addEventListener('DOMContentLoaded', function () {
     const apikey = 'AxN8ROZz3T8azRC4SxHcQz';
     const client = filestack.init(apikey);
@@ -31,7 +30,7 @@ const showImages = (res) => {
         imageDiv.setAttribute('src', image.url);
         imageContainer.appendChild(imageDiv);
     });
-    document.body.appendChild(imageContainer);
+    document.body.appendChild(imageContainer).style.height = "50px";
 }
 //https://jsfiddle.net/gh/get/library/pure/filestack/filestack-js/tree/master/examples/picker
 
