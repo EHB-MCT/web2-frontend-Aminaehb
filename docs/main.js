@@ -5,8 +5,6 @@
 
 //import * as filestack from './filestack';
 
-
-
 window.addEventListener('DOMContentLoaded', function () {
     const apikey = 'AxN8ROZz3T8azRC4SxHcQz';
     const client = filestack.init(apikey);

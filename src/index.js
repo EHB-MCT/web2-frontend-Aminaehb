@@ -1,4 +1,5 @@
 import * as filestack from './filestack-js';
+const filestack = require('filestack-js');
 const client = filestack.init('AxN8ROZz3T8azRC4SxHcQz');
 const fileObject = document.querySelector('#fileObject');
 client.upload(fileObject).then(data => console.log(data.url));
