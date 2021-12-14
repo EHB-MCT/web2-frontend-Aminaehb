@@ -1,4 +1,21 @@
 {
+  "name": "web2-frontend-aminaehb",
+  "version": "1.0.0",
+  "description": "web2-frontend-Aminaehb created by GitHub Classroom",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/EHB-MCT/web2-frontend-Aminaehb.git"
+  },
+  "author": "Amina Amzou",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/EHB-MCT/web2-frontend-Aminaehb/issues"
+  },
+  "homepage": "https://github.com/EHB-MCT/web2-frontend-Aminaehb#readme",
   "dependencies": {
     "filestack-js": "^3.25.0"
   },
