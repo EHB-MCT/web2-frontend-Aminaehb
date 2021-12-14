@@ -1,12 +1,4 @@
-import * as filestack from './filestack-js';
-const client = filestack.init('AxN8ROZz3T8azRC4SxHcQz');
-client.upload(fileObject).then(data => console.log(data.url));
-
-client.picker().open();
-//https://jsfiddle.net/gh/get/library/pure/filestack/filestack-js/tree/master/examples/picker
-//https://www.npmjs.com/package/filestack-js
-
-
+const client = require('filestack-js').init('AxN8ROZz3T8azRC4SxHcQz');
 
 window.addEventListener('DOMContentLoaded', function () {
     const apikey = 'AxN8ROZz3T8azRC4SxHcQz';
@@ -23,11 +15,24 @@ window.addEventListener('DOMContentLoaded', function () {
             rotate: true,
         },
         onOpen: () => console.log('opened!'),
-        onUploadDone: (res),
+        onUploadDone: (res) => showImages(res),
         fromSources: ["local_file_system", "instagram", "facebook"],
     };
     client.picker(options).open();
 });
+
+
+const showImages = (res) => {
+    console.log(res);
+    let imageContainer = document.createElement('div'); // create a div element in js
+    res.filesUploaded.forEach(image => {
+        let imageDiv = document.createElement('img');
+        console.log(image.url)
+        imageDiv.setAttribute('src', image.url);
+        imageContainer.appendChild(imageDiv);
+    });
+    document.body.appendChild(imageContainer);
+}
 //https://jsfiddle.net/gh/get/library/pure/filestack/filestack-js/tree/master/examples/picker
 
 //A8ottKMzuQbG0MJ618CPnz = key school account
