@@ -103,8 +103,8 @@
  }
 
  a li:hover {
-    border: 3px solid black;
-    box-shadow: 10px 10px 5px black;
+     border: 3px solid black;
+     box-shadow: 10px 10px 5px black;
  }
 
  a li {
@@ -117,8 +117,8 @@
  }
 
  .aboutbutton #about {
-    border: 3px solid black;
-    box-shadow: 10px 10px 5px black;
+     border: 3px solid black;
+     box-shadow: 10px 10px 5px black;
      margin-top: 30px;
  }
 
@@ -134,12 +134,17 @@
  /*//////////////////////////// ABOUT CONTEXT///////////////////////////////*/
 
  .title h1 {
-     background-color: white;
      font-size: 40px;
      margin: 120px 0px 30px 400px;
-     padding: 10px 55px 10px;
-     width: 245px;
+     padding: 10px 45px 10px;
+     width: 320px;
      font-weight: 200;
+     border: 2px solid black;
+     box-shadow: 10px 5px 5px black;
+     border-radius: 25px;
+     font-weight: 300;
+     font-size: 55px;
+     width: 20%;
  }
 
  .title h2 {
