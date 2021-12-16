@@ -138,10 +138,11 @@ a li {
 }
 
 .column1,
-.column2 {
+.column2,
+.column3 {
     width: 10%;
     padding: 10px;
-    margin-left: 270px;
+    margin-left: 290px;
 }
 
 .column1 #img1 {
@@ -149,19 +150,18 @@ a li {
 
 }
 
-/*.column2 #img2 {
-    margin-top: 0px;
-}*/
 
 .column1 img,
-.column2 img {
+.column2 img,
+.column3 img {
     opacity: 0.6;
     cursor: zoom-in;
     padding: 5px;
 }
 
 .column1 img:hover,
-.column2 img:hover {
+.column2 img:hover,
+.column3 img:hover {
     opacity: 1;
     transform: scale(1.1);
     transition: 0.5s;
@@ -202,13 +202,15 @@ a li {
 }
 
 .details #price {
-    font-weight: 300;
+    font-weight: bolder;
     font-size: 35px;
+    font-family: uni sans;
 }
 
 .details #shop {
-    font-weight: 200;
+    font-weight: bolder;
     font-size: 20px;
+    font-family: uni sans;
 }
 
 
@@ -216,7 +218,7 @@ a li {
     list-style: none;
     text-decoration: none;
     font-size: 20px;
-    right: 22vw;
+    right: 16.5vw;
     position: absolute;
     font-family: uni sans;
     font-weight: bolder;

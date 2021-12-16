@@ -149,9 +149,6 @@ a li {
 
 }
 
-/*.column2 #img2 {
-    margin-top: 0px;
-}*/
 
 .column1 img,
 .column2 img {
@@ -171,9 +168,7 @@ a li {
     content: "";
     display: table;
     clear: both;
-
 }
-
 
 .column1 img:active,
 .column2 img:active {
@@ -202,13 +197,15 @@ a li {
 }
 
 .details #price {
-    font-weight: 300;
     font-size: 35px;
+    font-family: uni sans;
+    font-weight: bolder;
 }
 
 .details #shop {
-    font-weight: 200;
+    font-weight: bolder;
     font-size: 20px;
+    font-family: uni sans;
 }
 
 
@@ -216,7 +213,7 @@ a li {
     list-style: none;
     text-decoration: none;
     font-size: 20px;
-    right: 22vw;
+    right: 19vw;
     position: absolute;
     font-family: uni sans;
     font-weight: bolder;
