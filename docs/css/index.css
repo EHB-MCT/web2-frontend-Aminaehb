@@ -110,18 +110,18 @@
  #shops {
      position: relative;
      width: 80%;
-     margin-top: 218vh;
+     margin-top: 225vh;
      margin-bottom: 10vh;
      margin-left: 10vw;
  }
 
-.boxtext {
-    background-color: black;
+#textbox {
+    margin-top: 115vh;
+    width: 50%;
+    z-index: 1;
+    margin-left: 30vw;
 }
 
-.boxtext p {
-    color: black;
-}
 
  /*////////////////////////////END FIRSTPAGE///////////////////////////////*/
  /*////////////////////////////FOOTER///////////////////////////////*/
