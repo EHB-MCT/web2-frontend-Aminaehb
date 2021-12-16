@@ -25,12 +25,13 @@ window.addEventListener('DOMContentLoaded', function () {
     };
     client.picker(options).open();
 });
+// code from: https://jsfiddle.net/gh/get/library/pure/filestack/filestack-js/tree/master/examples/picker
 
 
 const showImages = (res) => {
     console.log(res);
     let imageContainer = document.createElement('div'); // create a div element in js
-    res.filesUploaded.forEach(image => {
+    res.filesUploaded.forEach(image => { 
         let imageDiv = document.createElement('img');
         console.log(image.url)
         imageDiv.setAttribute('src', image.url);
@@ -38,6 +39,5 @@ const showImages = (res) => {
     });
     document.body.appendChild(imageContainer);
 }
-    //https://jsfiddle.net/gh/get/library/pure/filestack/filestack-js/tree/master/examples/upload
 
     

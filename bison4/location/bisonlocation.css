@@ -2,8 +2,10 @@
  body {
      margin: 0;
      font-family: "quicksilver";
-     background-image: url(/background.png);
-     background-size: auto;
+     background-image: url(/bison4/location/bglocation.png);
+     background-size: 100%;
+     background-repeat: no-repeat;
+     background-position: center;
  }
 
 
@@ -74,13 +76,53 @@
 
  /*////////////////////////////END HEADER///////////////////////////////*/
  /*////////////////////////////FIRST PAGE///////////////////////////////*/
- .imgheader {
-     display: block;
-     margin-left: auto;
-     margin-right: auto;
-     width: 100%;
+
+ .maps {
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     margin-bottom: 30vh;
  }
 
+ h1 {
+     font-size: 90px;
+     margin-right: 10vw;
+     font-weight: 100;
+ }
+
+ p {
+     font-size: 30px;
+ }
+
+ img {
+     margin-left: 10px;
+ }
+
+ .image {
+     flex-basis: 40%;
+ }
+
+ .text {
+     font-size: 20px;
+     padding-left: 20px;
+ }
+
+ button {
+     background-color: white;
+     color: black;
+     margin-top: 20vh;
+     font-family: quicksilver;
+     font-weight: 200;
+     font-size: 15px;
+     padding: 0.8em 25px;
+     border: 3px solid white;
+     margin-left: 5vw;
+ }
+
+ button:hover {
+     border: 3px solid black;
+     box-shadow: 10px 10px 5px black;
+ }
 
  /*////////////////////////////END FIRSTPAGE///////////////////////////////*/
  /*////////////////////////////FOOTER///////////////////////////////*/
