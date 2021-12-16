@@ -124,6 +124,11 @@
      box-shadow: 10px 10px 5px black;
  }
 
+ button a {
+     text-decoration: none;
+     color: black;
+ }
+
  /*////////////////////////////END FIRSTPAGE///////////////////////////////*/
  /*////////////////////////////FOOTER///////////////////////////////*/
  footer {

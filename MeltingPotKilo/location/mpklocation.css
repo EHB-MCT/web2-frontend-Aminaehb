@@ -115,6 +115,11 @@ button {
     margin-left: 5vw;
 }
 
+button a {
+    text-decoration: none;
+    color: black;
+}
+
 button:hover {
     border: 3px solid black;
     box-shadow: 10px 10px 5px black;
