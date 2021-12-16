@@ -5,9 +5,9 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/MeltingPotKilo/jackets/large/large.css">
     <link rel="stylesheet" type="text/css" href="/icomoon/style.css">
-    <link rel="stylesheet" href="/MeltingPotKilo/jackets/jackets.css">
-    <title>Jackets page</title>
+    <title>Large Jacket page</title>
 </head>
 
 <body>
@@ -43,47 +43,46 @@
                 <li id="about">About</li>
             </a>
         </ul>
-        <div class="title">
-            <h1>Jackets</h1>
-        </div>
-        <div class="row">
-            <div class="column1">
-                <div class="content1">
-                    <a href="/MeltingPotKilo/jackets/teddy/teddy.html"> <img src="/MeltingPotKilo/jackets/teddy.jpeg"
-                            alt="teddy">
-                    </a>
-                    <h3>Teddy Jacket</h3>
-                    <p>€15/kg</p>
+        <section class="row">
+            <div class="container">
+                <div class="details">
+                    <h1>Large Jacket</h1>
+                    <p id="price">€15/kg</p>
+                    <p id="shop">Available in the shop</p>
+                    <ul class="list">Details:
+                        <li>Material: coated nylons </li>
+                        <li>Condition: 6/10</li>
+                        <li>Size: XL</li>
+                    </ul>
                 </div>
+                <img src="/MeltingPotKilo/jackets/large/front.jpeg" id="expandedImg" style="width: 40%;">
             </div>
             <div class="column1">
-                <div class="content">
-                    <a href="/MeltingPotKilo/jackets/leather/leather.html"> <img
-                            src="/MeltingPotKilo/jackets/leather.jpeg" alt="leather"></a>
-                    <h3>Leather Jacket</h3>
-                    <p>€15/kg</p>
-                </div>
+                <img src="/MeltingPotKilo/jackets/large/front.jpeg" id="img1" alt="front" style="width:100%"
+                    onclick="myFunction(this);">
             </div>
-        </div>
-        <div class="row">
-            <div class=" column2">
-                <div class="content1">
-                    <a href="/MeltingPotKilo/jackets/puffer/puffer.html"> <img src="/MeltingPotKilo/jackets/puffer.jpeg"
-                            alt="puffer"></a>
-                    <h3>Puffer Jacket</h3>
-                    <p>€15/kg</p>
-                </div>
-            </div>
-            <div class="column2">
-                <div class="content">
-                    <a href="/MeltingPotKilo/jackets/large/large.html"> <img src="/MeltingPotKilo/jackets/large.jpeg"
-                            alt="large"></a>
-                    <h3>Large Jacket</h3>
-                    <p>€15/kg</p>
-                </div>
-            </div>
-        </div>
 
+            <div class="column2">
+                <img src="/MeltingPotKilo/jackets/large/back.jpeg" id="img2" alt="back" style="width:100%"
+                    onclick="myFunction(this);">
+            </div>
+        </section>
+
+        <section class="rowchoose">
+            <h1>You also may like</h1>
+            <div class="columnchoose1">
+                <div id="polaroid">
+                    <a href="/MeltingPotKilo/jackets/puffer/puffer.html">
+                        <img src="/MeltingPotKilo/jackets/puffer.jpeg" alt="puffer" style="width:70%">
+                    </a>
+                    <div class="puffer">
+                        <h4>Puffer Jacket</h4>
+                        <p>€15/kg</p>
+                    </div>
+                </div>
+
+            </div>
+        </section>
     </main>
     <footer>
         <ul>
@@ -104,6 +103,7 @@
             </div>
         </ul>
     </footer>
+    <script src="/MeltingPotKilo/jackets/large/large.js"></script>
 </body>
 
 </html>
