@@ -100,9 +100,8 @@ nav a {
 }
 
 a li:hover {
-    background-image: url(/bgbutton.png);
-    color: white;
-    font-weight: 100;
+    border: 3px solid black;
+    box-shadow: 10px 10px 5px black;
 }
 
 a li {
@@ -122,8 +121,8 @@ a li {
 
 
 .blousesbutton #blouses {
-    background-image: url(/bgbutton.png);
-    color: white;
+    border: 3px solid black;
+    box-shadow: 10px 10px 5px black;
 }
 
 
