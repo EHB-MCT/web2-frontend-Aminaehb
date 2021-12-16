@@ -82,15 +82,19 @@ nav a {
 /*//////////////////////////// END HEADER///////////////////////////////*/
 /*//////////////////////////// MAIN BUTTONS///////////////////////////////*/
 
-
 .title h1 {
-    background-color: white;
     font-size: 40px;
     margin: 120px 0px 30px 400px;
     padding: 10px 45px 10px;
-    width: 260px;
+    width: 320px;
     font-weight: 200;
+    border: 2px solid black;
+    box-shadow: 10px 5px 5px black;
+    border-radius: 25px;
+    font-weight: 300;
+    font-size: 55px;
 }
+
 
 
 
@@ -114,9 +118,8 @@ nav a {
 }
 
 a li:hover {
-    background-color: rgba(128, 128, 128, 0.493);
-
-
+    border: 3px solid black;
+    box-shadow: 10px 10px 5px black;
 }
 
 a li {
@@ -133,10 +136,9 @@ a li {
 }
 
 
-
 .hoodiebutton #hoodie {
-    background-color: rgba(128, 128, 128, 0.493);
-
+    border: 3px solid black;
+    box-shadow: 10px 10px 5px black;
 }
 
 .mainbuttons #logobison {

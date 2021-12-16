@@ -100,7 +100,8 @@ nav a {
 }
 
 a li:hover {
-    background-color: rgba(128, 128, 128, 0.493);
+    border: 3px solid black;
+    box-shadow: 10px 10px 5px black;
 }
 
 a li {
@@ -116,12 +117,10 @@ a li {
     margin-top: 30px;
 }
 
-.aboutbutton #about:hover {
-    background-color: rgba(128, 128, 128, 0.493);
-}
 
 .shirtbutton #shirt {
-    background-color: rgba(128, 128, 128, 0.493);
+    border: 3px solid black;
+    box-shadow: 10px 10px 5px black;
 
 }
 
@@ -195,7 +194,9 @@ a li {
 }
 
 .details h1 {
-    text-shadow: 1px 1px 20px orange;
+    border: 2px solid black;
+    box-shadow: 10px 5px 5px black;
+    border-radius: 25px;
     font-weight: 300;
     font-size: 55px;
 }
@@ -214,12 +215,17 @@ a li {
 .details .list {
     list-style: none;
     text-decoration: none;
-    font-size: 15px;
-    font-weight: 100;
-    right: 25vw;
-    bottom: 5vh;
+    font-size: 20px;
+    right: 22vw;
     position: absolute;
+    font-family: uni sans;
+    font-weight: bolder;
 }
+
+.details .list li {
+    font-style: italic;
+}
+
 
 /*//////////////////////////// END ITEM WITH INFO///////////////////////////////*/
 
@@ -269,11 +275,26 @@ a li {
     width: 250px;
 }
 
+.columnchoose1 #polaroid img:hover,
+.columnchoose2 #polaroid img:hover,
+.columnchoose3 #polaroid img:hover {
+    -webkit-transform: scale(1.0);
+    -moz-transform: scale(1.0);
+    transform: scale(1.0);
+    -webkit-box-shadow: 0 10px 20px rgba(0, 0, 0, .7);
+    -moz-box-shadow: 0 10px 20px rgba(0, 0, 0, .7);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, .7);
+}
+
 .rowchoose h1 {
     margin-left: 80px;
     font-size: 50px;
-    text-shadow: 1px 1px 20px orange;
+    border: 2px solid black;
+    box-shadow: 10px 5px 5px black;
+    border-radius: 25px;
+    font-weight: 300;
     margin-top: 5px;
+    width: 400px;
 }
 
 .rowchoose::after {
@@ -298,15 +319,18 @@ a li {
     bottom: 30px;
 }
 
-.sunglasses h4 {
+.sunglasses h4,
+.sunglasses p {
     left: 100px;
 }
 
-.bob h4 {
+.bob h4,
+.bob p {
     left: 60px;
 }
 
-.rings h4 {
+.rings h4,
+.rings p {
     left: 35px;
 }
 
@@ -315,20 +339,8 @@ a li {
 .rings p {
     position: absolute;
     font-size: 17px;
-    font-weight: 200;
+    font-family: uni sans;
     bottom: 10px;
-}
-
-.sunglasses p {
-    left: 100px;
-}
-
-.bob p {
-    left: 60px;
-}
-
-.rings p {
-    left: 35px;
 }
 
 /*////////////////////////////END MATCH IT WITH///////////////////////////////*/

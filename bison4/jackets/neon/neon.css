@@ -7,7 +7,7 @@
 body {
     margin: 0;
     font-family: "quicksilver";
-    background-image: url(/bison4/t-shirts/MLS/bgmls.png);
+    background-image: url(/bison4/jackets/bgitemsjacket.png);
     background-size: 100%;
     background-repeat: no-repeat
 }
@@ -100,7 +100,8 @@ nav a {
 }
 
 a li:hover {
-    background-color: rgba(128, 128, 128, 0.493);
+    border: 3px solid black;
+    box-shadow: 10px 10px 5px black;
 }
 
 a li {
@@ -116,14 +117,12 @@ a li {
     margin-top: 30px;
 }
 
-.aboutbutton #about:hover {
-    background-color: rgba(128, 128, 128, 0.493);
+
+.jacketbutton #jacket {
+    border: 3px solid black;
+    box-shadow: 10px 10px 5px black;
 }
 
-.shirtbutton #shirt {
-    background-color: rgba(128, 128, 128, 0.493);
-
-}
 
 .mainbuttons #logobison {
     height: auto;
@@ -139,30 +138,28 @@ a li {
 }
 
 .column1,
-.column2 {
+.column2,
+.column3 {
     width: 10%;
     padding: 10px;
     margin-left: 270px;
 }
 
 .column1 #img1 {
-    margin-top: 110px;
-
+    margin-top: 115px;
 }
 
-/*.column2 #img2 {
-    margin-top: 0px;
-}*/
-
 .column1 img,
-.column2 img {
+.column2 img,
+.column3 img {
     opacity: 0.6;
     cursor: zoom-in;
     padding: 5px;
 }
 
 .column1 img:hover,
-.column2 img:hover {
+.column2 img:hover,
+.column3 img:hover {
     opacity: 1;
     transform: scale(1.1);
     transition: 0.5s;
@@ -195,31 +192,42 @@ a li {
 }
 
 .details h1 {
-    text-shadow: 1px 1px 20px orange;
+    border: 2px solid black;
+    box-shadow: 10px 5px 5px black;
+    border-radius: 25px;
     font-weight: 300;
     font-size: 55px;
 }
 
 .details #price {
     font-weight: 300;
-    font-size: 35px;
+    font-size: 40px;
+    font-family: uni sans;
+    font-weight: bolder;
+
 }
 
 .details #shop {
-    font-weight: 200;
     font-size: 20px;
+    font-family: uni sans;
+    font-weight: bolder;
 }
 
 
 .details .list {
     list-style: none;
     text-decoration: none;
-    font-size: 15px;
-    font-weight: 100;
-    right: 25vw;
-    bottom: 5vh;
+    font-size: 20px;
+    right: 8.5vw;
     position: absolute;
+    font-family: uni sans;
+    font-weight: bolder;
 }
+
+.details .list li {
+    font-style: italic;
+}
+
 
 /*//////////////////////////// END ITEM WITH INFO///////////////////////////////*/
 
@@ -251,29 +259,47 @@ a li {
     position: relative;
 }
 
+.columnchoose1 #polaroid img:hover,
+.columnchoose2 #polaroid img:hover,
+.columnchoose3 #polaroid img:hover {
+    -webkit-transform: scale(1.0);
+    -moz-transform: scale(1.0);
+    transform: scale(1.0);
+    -webkit-box-shadow: 0 10px 20px rgba(0, 0, 0, .7);
+    -moz-box-shadow: 0 10px 20px rgba(0, 0, 0, .7);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, .7);
+}
+
 .columnchoose1 #polaroid img {
     margin-left: 80px;
+}
+
+.columnchoose1 #polaroid img,
+.columnchoose2 #polaroid img,
+.columnchoose3 #polaroid img {
     display: block;
     width: 250px;
 }
 
 .columnchoose2 #polaroid img {
     margin-left: 40px;
-    display: block;
-    width: 250px;
+
 }
 
 .columnchoose3 #polaroid img {
     margin-right: 40px;
-    display: block;
-    width: 250px;
 }
 
 .rowchoose h1 {
     margin-left: 80px;
+    width: 50;
     font-size: 50px;
-    text-shadow: 1px 1px 20px orange;
     margin-top: 5px;
+    border: 2px solid black;
+    box-shadow: 10px 5px 5px black;
+    border-radius: 25px;
+    width: 400px;
+    text-shadow: 2px 2px 2px white;
 }
 
 .rowchoose::after {
@@ -298,15 +324,18 @@ a li {
     bottom: 30px;
 }
 
-.sunglasses h4 {
+.sunglasses h4,
+.sunglasses p {
     left: 100px;
 }
 
-.bob h4 {
+.bob h4,
+.bob p {
     left: 60px;
 }
 
-.rings h4 {
+.rings h4,
+.rings p {
     left: 35px;
 }
 
@@ -315,20 +344,8 @@ a li {
 .rings p {
     position: absolute;
     font-size: 17px;
-    font-weight: 200;
     bottom: 10px;
-}
-
-.sunglasses p {
-    left: 100px;
-}
-
-.bob p {
-    left: 60px;
-}
-
-.rings p {
-    left: 35px;
+    font-family: uni sans;
 }
 
 /*////////////////////////////END MATCH IT WITH///////////////////////////////*/
