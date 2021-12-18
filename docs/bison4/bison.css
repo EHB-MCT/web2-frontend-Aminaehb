@@ -1,0 +1,241 @@
+ /*////////////////////////////HEADER///////////////////////////////*/
+ * {
+     box-sizing: border-box;
+ }
+
+
+ body {
+     margin: 0;
+     font-family: "quicksilver";
+     background-image: url(/docs/bison4/bgbison.png);
+     background-size: 100%;
+     background-repeat: no-repeat;
+ }
+
+
+
+ .container {
+     width: 80%;
+     margin: 0 auto;
+ }
+
+
+ header {
+     background-color: white;
+     position: fixed;
+     top: 0;
+     width: 100%;
+     z-index: 10;
+ }
+
+ header::after {
+     content: '';
+     display: table;
+     clear: both;
+ }
+
+
+ nav {
+     float: right;
+
+ }
+
+ nav ul {
+     margin: 0;
+     padding: 0;
+     list-style: none;
+ }
+
+ nav li {
+     display: inline-block;
+     margin-left: 70px;
+     padding-top: 20px;
+
+ }
+
+ nav li a:hover {
+     color: rgba(0, 0, 0, 0.500);
+ }
+
+ nav a {
+     text-decoration: none;
+     color: black;
+     font-size: 20px;
+     padding-right: 100px;
+ }
+
+ .icon-camera:before {
+     content: "\e90f";
+     color: black;
+     font-size: 25px;
+ }
+
+
+ .logo {
+     height: auto;
+     width: auto;
+     max-height: 70px;
+     max-width: 250px;
+     float: left;
+ }
+
+ /*//////////////////////////// END HEADER///////////////////////////////*/
+ /*//////////////////////////// MAIN BUTTONS///////////////////////////////*/
+
+ .mainbuttons {
+     list-style: none;
+     display: inline-block;
+     margin-top: 0%;
+     font-size: 18px;
+     padding-left: 70px;
+     font-family: quicksilver;
+     z-index: 1;
+     position: absolute;
+
+ }
+
+ .mainbuttons a {
+     text-decoration: none;
+     color: black;
+     margin: 5px;
+     text-align: center;
+
+ }
+
+ a li:hover {
+     border: 3px solid black;
+     box-shadow: 10px 10px 5px black;
+ }
+
+ a li {
+     padding: 7px;
+     background-color: white;
+     padding-left: 25px;
+     padding-right: 25px;
+     padding-top: 13px;
+     padding-bottom: 10px;
+ }
+
+ .aboutbutton #about {
+     border: 3px solid black;
+     box-shadow: 10px 10px 5px black;
+     margin-top: 30px;
+ }
+
+ .mainbuttons #logobison {
+     height: auto;
+     width: auto;
+     max-width: 160px;
+     margin-bottom: 50px;
+ }
+
+ /*//////////////////////////// END MAIN BUTTONS///////////////////////////////*/
+
+ /*//////////////////////////// ABOUT CONTEXT///////////////////////////////*/
+
+ .title h1 {
+     font-size: 40px;
+     margin: 120px 0px 30px 400px;
+     padding: 10px 45px 10px;
+     width: 320px;
+     font-weight: 200;
+     border: 2px solid black;
+     box-shadow: 10px 5px 5px black;
+     border-radius: 25px;
+     font-weight: 300;
+     font-size: 55px;
+     width: 20%;
+ }
+
+ .title h2 {
+     font-family: uni sans;
+     font-weight: bolder;
+     font-size: 40px;
+     margin: 20px 0px 0px 400px;
+ }
+
+ #second {
+     font-family: uni sans;
+     font-size: 25px;
+     font-weight: bolder;
+     font-style: italic;
+ }
+
+ .title p {
+     font-family: uni sans;
+     font-size: 25px;
+     margin: 10px 0px 0px 400px;
+     text-shadow: 3px 1px 10px white;
+ }
+
+ .imagesabout {
+     margin: 100px -1px 50px 20px;
+ }
+
+ /*//////////////////////////// END ABOUT CONTEXT///////////////////////////////*/
+
+ /*////////////////////////////FOOTER///////////////////////////////*/
+ footer {
+     background-color: white;
+     width: 100%;
+     padding: 10px 0;
+ }
+
+
+ a #div1,
+ a #div2 {
+     width: 50%;
+     font-size: 20px;
+     float: left;
+     text-align: center;
+     color: black;
+ }
+
+ #div1:hover {
+     color: rgba(0, 0, 0, 0.500);
+ }
+
+ #div2:hover {
+     color: rgba(0, 0, 0, 0.500);
+ }
+
+
+
+ ul .social1 {
+     text-align: center;
+     padding-top: 2px;
+     width: 50%;
+     float: left;
+     list-style: none;
+ }
+
+
+
+ ul .social2 {
+     text-align: center;
+     padding-top: 5px;
+
+ }
+
+ .social1 a {
+     text-decoration: none;
+ }
+
+ .social2 a {
+     text-decoration: none;
+ }
+
+ .icon-facebook:before {
+     content: "\ea90";
+     color: black;
+     font-size: 25px;
+
+ }
+
+ .icon-instagram:before {
+     content: "\ea92";
+     color: black;
+     font-size: 25px;
+ }
+
+ /*////////////////////////////END FOOTER///////////////////////////////*/

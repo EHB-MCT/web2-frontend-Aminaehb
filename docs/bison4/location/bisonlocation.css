@@ -2,9 +2,10 @@
  body {
      margin: 0;
      font-family: "quicksilver";
-     background-image: url(/docs/images/background.png);
+     background-image: url(/docs/bison4/location/bglocation.png);
      background-size: 100%;
      background-repeat: no-repeat;
+     background-position: center;
  }
 
 
@@ -20,7 +21,6 @@
      position: fixed;
      top: 0;
      width: 100%;
-     z-index: 10;
  }
 
  header::after {
@@ -76,52 +76,58 @@
 
  /*////////////////////////////END HEADER///////////////////////////////*/
  /*////////////////////////////FIRST PAGE///////////////////////////////*/
- #imgheader {
-     display: block;
-     margin-left: auto;
-     margin-right: auto;
-     width: 100%;
-     position: absolute;
+
+ .maps {
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     margin-bottom: 30vh;
  }
 
-
- .titlelogo img {
-     position: absolute;
-     margin-left: 20vw;
-     margin-top: 30vh;
+ h1 {
+     font-size: 90px;
+     margin-right: 10vw;
+     font-weight: 100;
  }
 
- .titlelogo p {
-    position: absolute;
-    margin-left: 45vw;
-    margin-top: 90vh;
-    color: white;
-    text-shadow: 2px 2px black;
- }
- .icon-circle-down:before {
-    content: "\ea43";
-    position: absolute;
-    margin-left: 51vw;
-    margin-top: 93vh;
-    color: white;
-    text-shadow: 1px 2px black;
-    font-size: 150%;
-  }
- #shops {
-     position: relative;
-     width: 80%;
-     margin-top: 225vh;
-     margin-bottom: 10vh;
-     margin-left: 10vw;
+ p {
+     font-size: 30px;
  }
 
-#textbox {
-    margin-top: 115vh;
-    width: 50%;
-    z-index: 1;
-    margin-left: 30vw;
-}
+ img {
+     margin-left: 10px;
+ }
 
+ .image {
+     flex-basis: 40%;
+ }
+
+ .text {
+     font-size: 20px;
+     padding-left: 20px;
+ }
+
+ button {
+     background-color: white;
+     color: black;
+     margin-top: 20vh;
+     font-family: quicksilver;
+     font-weight: 200;
+     font-size: 15px;
+     padding: 0.8em 25px;
+     border: 3px solid white;
+     margin-left: 5vw;
+ }
+
+ button:hover {
+     border: 3px solid black;
+     box-shadow: 10px 10px 5px black;
+ }
+
+ button a {
+     text-decoration: none;
+     color: black;
+ }
 
  /*////////////////////////////END FIRSTPAGE///////////////////////////////*/
  /*////////////////////////////FOOTER///////////////////////////////*/
