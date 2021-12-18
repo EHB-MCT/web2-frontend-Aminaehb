@@ -2,7 +2,7 @@
  body {
      margin: 0;
      font-family: "quicksilver";
-     background-image: url(/photobooth/bgphotobooth.png);
+     background-image: url(/docs/photobooth/bgphotobooth.png);
      background-size: 100%;
      background-repeat: no-repeat;
  }
@@ -103,7 +103,7 @@
      color: black;
  }
 
- .fa  a{
+ .fa a {
      color: black;
      margin-left: 46vw;
      font-size: 150px;
