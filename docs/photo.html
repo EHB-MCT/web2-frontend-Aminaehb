@@ -6,12 +6,15 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" type="text/css" href="/docs/icomoon/style.css">
-    <link href="/docs/style.css" rel="stylesheet">
-    <title>Homepage</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="//static.filestackapi.com/filestack-js/3.x.x/filestack.min.js"></script>
+    <link href="/docs/photo.css" rel="stylesheet">
+    <title>
+        Photobooth page
+    </title>
 </head>
 
 <body>
-
     <header>
         <div class="container"> </div>
         <a href="/docs/index.html"> <img src="/docs/images/logo.png" class="logo"></a>
@@ -22,28 +25,27 @@
                 <li><a href="/docs/photo.html"><span class="icon-camera"></span></a></li>
 
             </ul>
-
         </nav>
     </header>
     <main>
-        <div class="header">
-            <img id="imgheader" src="/docs/images/imgheader.png">
-            <div class="titlelogo">
-                <img src="/docs/images/titlelogo.png">
-                <p>Choose your thrift shop</p>
-                <span class="icon-circle-down"></span>
-                <img id="textbox" src="/docs/images/textbox.png">
-            </div>
+        <h1>Photobooth </h1>
+        <h2>Time to show your new fit to the world</h2>
+        <h3>What's a better way than sharing it!</h3>
+        <i class="fa"><a href="/docs/info.html">&#xf067;</a></i>
+        <img src="/docs/images/imagespeople.png" class="imagespeople">
+        <div id="PhotoList">
+            <p><a href="#" id="upload">Click here to see all the images of other people</a> </p>
+            <img id="photo1" src="#" alt="your image" height=200 width=100>
+            <img id="photo2" src="#" alt="your image" height=200 width=100>
+            <img id="photo3" src="#" alt="your image" height=200 width=100>
         </div>
-        <img id="shops" src="/docs/images/shops.png">
-
     </main>
     <footer>
         <ul>
             <a href="/docs/bisonlocation.html">
                 <p id="div1"> Bison 4 location</p>
             </a>
-            <a href="/docs/mpklocation.html">
+            <a href="/docs//mpklocation.html">
                 <p id="div2">Melting Pot Kilo location</p>
             </a>
 
@@ -57,6 +59,7 @@
             </div>
         </ul>
     </footer>
+    <script src="/docs/photobooth.js"></script>
 </body>
 
 </html>
