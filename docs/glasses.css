@@ -1,0 +1,418 @@
+/*////////////////////////////HEADER///////////////////////////////*/
+* {
+    box-sizing: border-box;
+}
+
+
+body {
+    margin: 0;
+    font-family: "quicksilver";
+    background-image: url(/docs/images/bgitemsaccesoires.png);
+    background-size: 100%;
+    background-repeat: no-repeat
+}
+
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+
+header {
+    background-color: white;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 10;
+}
+
+header::after {
+    content: '';
+    display: table;
+    clear: both;
+}
+
+
+nav {
+    float: right;
+}
+
+nav ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+nav li {
+    display: inline-block;
+    margin-left: 70px;
+    padding-top: 20px;
+
+}
+
+nav li a:hover {
+    color: rgba(0, 0, 0, 0.500);
+}
+
+nav a {
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    padding-right: 100px;
+}
+
+.icon-camera:before {
+    content: "\e90f";
+    color: black;
+    font-size: 25px;
+}
+
+
+.logo {
+    height: auto;
+    width: auto;
+    max-height: 70px;
+    max-width: 250px;
+    float: left;
+}
+
+/*//////////////////////////// END HEADER///////////////////////////////*/
+/*//////////////////////////// MAIN BUTTONS///////////////////////////////*/
+
+
+.mainbuttons {
+    font-family: uni-sans;
+    list-style: none;
+    display: inline-block;
+    margin-top: 10%;
+    font-size: 18px;
+    padding-left: 70px;
+    font-family: quicksilver;
+    position: absolute;
+}
+
+.mainbuttons a {
+    text-decoration: none;
+    color: black;
+    margin: 5px;
+    text-align: center;
+}
+
+a li:hover {
+    border: 3px solid black;
+    box-shadow: 10px 10px 5px black;
+}
+
+a li {
+    padding: 7px;
+    background-color: white;
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-top: 13px;
+    padding-bottom: 10px;
+}
+
+.aboutbutton #about {
+    margin-top: 30px;
+}
+
+
+.accesoiresbutton #accesoires {
+    border: 3px solid black;
+    box-shadow: 10px 10px 5px black;
+}
+
+.mainbuttons #logobison {
+    height: auto;
+    width: auto;
+    max-width: 160px;
+    margin-bottom: 50px;
+}
+
+/*//////////////////////////// END MAIN BUTTONS///////////////////////////////*/
+/*//////////////////////////// ITEM WITH INFO///////////////////////////////*/
+* {
+    box-sizing: border-box;
+}
+
+.container {
+    margin-right: 10vw;
+}
+
+.column1,
+.column2,
+.column3 {
+    width: 10%;
+    padding: 10px;
+    margin-left: 290px;
+}
+
+.column1 #img1 {
+    margin-top: 110px;
+}
+
+.column1 img,
+.column2 img,
+.column3 img {
+    opacity: 0.6;
+    cursor: zoom-in;
+    padding: 5px;
+}
+
+.column1 img:hover,
+.column2 img:hover,
+.column3 img:hover {
+    opacity: 1;
+    transform: scale(1.1);
+    transition: 0.5s;
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+
+}
+
+
+.column1 img:active,
+.column2 img:active {
+    opacity: 1;
+}
+
+
+.container #expandedImg {
+    float: right;
+    margin-top: 125px;
+    margin-bottom: 100px;
+}
+
+.details {
+    float: right;
+    margin-top: 75px;
+    margin-left: 25px;
+}
+
+.details h1 {
+    border: 2px solid black;
+    box-shadow: 10px 5px 5px black;
+    border-radius: 25px;
+    font-weight: 300;
+    font-size: 55px;
+    width: 100%;
+}
+
+.details #price {
+    font-weight: bolder;
+    font-size: 35px;
+    font-family: uni sans;
+}
+
+.details #shop {
+    font-weight: bolder;
+    font-size: 20px;
+    font-family: uni sans;
+}
+
+
+.details .list {
+    list-style: none;
+    text-decoration: none;
+    font-size: 20px;
+    right: 10vw;
+    position: absolute;
+    font-family: uni sans;
+    font-weight: bolder;
+}
+
+.details .list li {
+    font-style: italic;
+}
+
+
+/*//////////////////////////// END ITEM WITH INFO///////////////////////////////*/
+
+/*////////////////////////////MATCH IT WITH///////////////////////////////*/
+
+.columnchoose1,
+.columnchoose2,
+.columnchoose3 {
+    float: right;
+    width: 33.33%;
+}
+
+.columnchoose1 #polaroid img,
+.columnchoose2 #polaroid img,
+.columnchoose3 #polaroid img {
+    background: #ffffff;
+    display: inline-block;
+    margin: 55px 15px 30px;
+    padding: 15px 15px 100px;
+    text-align: center;
+    text-decoration: none;
+    -webkit-box-shadow: 0 4px 6px rgba(0, 0, 0, .3);
+    -moz-box-shadow: 0 4px 6px rgba(0, 0, 0, .3);
+    box-shadow: 0 4px 6px rgba(0, 0, 0, .3);
+    -webkit-transition: all .20s linear;
+    -moz-transition: all .20s linear;
+    transition: all .20s linear;
+    z-index: 0;
+    position: relative;
+}
+
+.columnchoose1 #polaroid img {
+    margin-left: 80px;
+    display: block;
+    width: 250px;
+}
+
+.columnchoose2 #polaroid img {
+    margin-left: 40px;
+    display: block;
+    width: 250px;
+}
+
+.columnchoose3 #polaroid img {
+    margin-right: 40px;
+    display: block;
+    width: 250px;
+}
+
+.columnchoose1 #polaroid img:hover,
+.columnchoose2 #polaroid img:hover,
+.columnchoose3 #polaroid img:hover {
+    -webkit-transform: scale(1.0);
+    -moz-transform: scale(1.0);
+    transform: scale(1.0);
+    -webkit-box-shadow: 0 10px 20px rgba(0, 0, 0, .7);
+    -moz-box-shadow: 0 10px 20px rgba(0, 0, 0, .7);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, .7);
+}
+
+.rowchoose h1 {
+    margin-left: 80px;
+    font-size: 50px;
+    border: 2px solid black;
+    box-shadow: 10px 5px 5px black;
+    border-radius: 25px;
+    font-weight: 300;
+    margin-top: 5px;
+    width: 400px;
+}
+
+.rowchoose::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.columnchoose1 #polaroid,
+.columnchoose2 #polaroid,
+.columnchoose3 #polaroid {
+    position: relative;
+    bottom: 5vh;
+}
+
+.sunglasses h4,
+.bob h4,
+.rings h4 {
+    position: absolute;
+    font-size: 25px;
+    font-weight: 200;
+    bottom: 30px;
+}
+
+.sunglasses h4,
+.sunglasses p {
+    left: 100px;
+}
+
+.bob h4,
+.bob p {
+    left: 60px;
+}
+
+.rings h4,
+.rings p {
+    left: 35px;
+}
+
+.sunglasses p,
+.bob p,
+.rings p {
+    position: absolute;
+    font-size: 17px;
+    font-family: uni sans;
+    bottom: 10px;
+}
+
+/*////////////////////////////END MATCH IT WITH///////////////////////////////*/
+
+/*////////////////////////////FOOTER///////////////////////////////*/
+footer {
+    background-color: white;
+    width: 100%;
+    padding: 10px 0;
+}
+
+ul a {
+    color: black;
+}
+
+#div1,
+#div2 {
+    width: 50%;
+    font-size: 20px;
+    float: left;
+    text-align: center;
+    text-decoration: none;
+}
+
+#div1:hover {
+    color: rgba(0, 0, 0, 0.500);
+}
+
+#div2:hover {
+    color: rgba(0, 0, 0, 0.500);
+}
+
+
+
+ul .social1 {
+    text-align: center;
+    padding-top: 2px;
+    width: 50%;
+    float: left;
+    list-style: none;
+}
+
+
+ul .social2 {
+    text-align: center;
+    padding-top: 5px;
+    text-decoration: none;
+}
+
+.social1 a {
+    text-decoration: none;
+}
+
+.social2 a {
+    text-decoration: none;
+}
+
+.icon-facebook:before {
+    content: "\ea90";
+    color: black;
+    font-size: 25px;
+
+}
+
+.icon-instagram:before {
+    content: "\ea92";
+    color: black;
+    font-size: 25px;
+}
+
+/*////////////////////////////END FOOTER///////////////////////////////*/
