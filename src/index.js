@@ -1,5 +1,5 @@
 //import * as filestack from './filestack-js';
-const filestack = require('filestack-js');
+//const filestack = require('filestack-js');
 const client = filestack.init('AxN8ROZz3T8azRC4SxHcQz');
 const fileObject = document.querySelector('#fileObject');
 client.upload(fileObject).then(data => console.log(data.url));
@@ -28,16 +28,47 @@ window.addEventListener('DOMContentLoaded', function () {
 });
 //source: https://www.filestack.com/
 //https://filestack.github.io/filestack-js/
-
-
 const showImages = (res) => {
     console.log(res);
     let imageContainer = document.createElement('div'); // create a div element in js
-    res.filesUploaded.forEach(image => { 
+    res.filesUploaded.forEach(image => {
         let imageDiv = document.createElement('img');
         console.log(image.url)
         imageDiv.setAttribute('src', image.url);
         imageContainer.appendChild(imageDiv);
     });
     document.body.appendChild(imageContainer);
+}
+
+window.onload = function () {
+
+
+
+    async function createText() {
+        let challengeId = document.getElementById('id').value;
+        let challengeFilename = document.getElementById('filename').value;
+        let challengeUrl = document.getElementById('url').value;
+
+        fetch(`..`, {
+            method: "POST",
+            headers: {
+                'Content-Type': 'application/json',
+            },
+            body: JSON.stringify({
+                id: challengeId,
+                filename: challengeFilename,
+                url: challengeUrl
+            })
+
+        }).then(response => {
+            return response.json()
+        }).then(data => {
+            console.log('Success:', data);
+        })
+
+
+
+
+
+    }
 }
