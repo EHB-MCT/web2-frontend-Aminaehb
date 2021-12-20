@@ -1,0 +1,40 @@
+body {
+    margin: 0;
+    font-family: "quicksilver";
+    background-image: url(/docs/images/bgphotobooth.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+.intro {
+    margin-top: 40vh;
+}
+
+
+h1 {
+    text-align: center;
+    margin-bottom: 5vh;
+    font-family: uni sans;
+    font-weight: bolder;
+}
+
+.back {
+    border: 3px solid black;
+    padding: 15px 50px 5px 50px;
+    font-weight: 100;
+    font-family: uni sans;
+    font-weight: bolder;
+    margin-left: 40vw;
+    margin-bottom: 5vh;
+    font-size: 60px;
+}
+
+.back a {
+    text-decoration: none;
+    color: black;
+}
+
+.back:hover {
+    border: 3px solid black;
+    box-shadow: 10px 10px 5px black;
+}
