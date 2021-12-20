@@ -14,8 +14,8 @@ window.addEventListener('DOMContentLoaded', function () {
         uploadInBackground: false,
         transformations: {
             crop: {
-                force: true,
-                cropRatio: 8 / 2.5
+                force: false,
+                aspectRatio: 1.778,
             },
             circle: true,
             rotate: true,
@@ -34,11 +34,11 @@ const showImages = (res) => {
     console.log(res);
     //let imageContainer = document.createElement('div'); // create a div element in js
     res.filesUploaded.forEach(image => {
-        // let imageDiv = document.createElement('img');
+       // let imageDiv = document.createElement('img');
         savePhoto(image.filename, image.url); //call the function up in
         console.log(image.url)
-        //  imageDiv.setAttribute('src', image.url);
-        // imageContainer.appendChild(imageDiv);
+      //  imageDiv.setAttribute('src', image.url);
+       // imageContainer.appendChild(imageDiv);
     });
     document.body.appendChild(imageContainer);
 }

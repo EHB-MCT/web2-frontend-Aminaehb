@@ -149,10 +149,6 @@ a li {
 
 }
 
-/*.column2 #img2 {
-    margin-top: 0px;
-}*/
-
 .column1 img,
 .column2 img {
     opacity: 0.6;
@@ -171,9 +167,7 @@ a li {
     content: "";
     display: table;
     clear: both;
-
 }
-
 
 .column1 img:active,
 .column2 img:active {
@@ -190,7 +184,7 @@ a li {
 .details {
     float: right;
     margin-top: 75px;
-    margin-left: 25px;
+    margin-left: 15px;
 }
 
 .details h1 {

@@ -92,21 +92,23 @@
  }
 
  .titlelogo p {
-    position: absolute;
-    margin-left: 45vw;
-    margin-top: 90vh;
-    color: white;
-    text-shadow: 2px 2px black;
+     position: absolute;
+     margin-left: 45vw;
+     margin-top: 90vh;
+     color: white;
+     text-shadow: 2px 2px black;
  }
+
  .icon-circle-down:before {
-    content: "\ea43";
-    position: absolute;
-    margin-left: 51vw;
-    margin-top: 93vh;
-    color: white;
-    text-shadow: 1px 2px black;
-    font-size: 150%;
-  }
+     content: "\ea43";
+     position: absolute;
+     margin-left: 51vw;
+     margin-top: 93vh;
+     color: white;
+     text-shadow: 1px 2px black;
+     font-size: 150%;
+ }
+
  #shops {
      position: relative;
      width: 80%;
@@ -115,12 +117,12 @@
      margin-left: 10vw;
  }
 
-#textbox {
-    margin-top: 115vh;
-    width: 50%;
-    z-index: 1;
-    margin-left: 30vw;
-}
+ #textbox {
+     margin-top: 115vh;
+     width: 50%;
+     z-index: 1;
+     margin-left: 25vw;
+ }
 
 
  /*////////////////////////////END FIRSTPAGE///////////////////////////////*/
