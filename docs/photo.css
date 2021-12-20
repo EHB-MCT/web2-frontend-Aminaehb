@@ -131,8 +131,12 @@
      align-items: center;
      justify-content: center;
      height: 500px;
-     width: 300px;
+     width: 500px;
+     padding: 5px;
+     padding-left: 10vw;
  }
+
+
 
  
 

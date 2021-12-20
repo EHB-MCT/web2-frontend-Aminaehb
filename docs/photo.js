@@ -1,7 +1,7 @@
 window.onload = function () {
 
     const image_btn = document.getElementById('image_btn');
-    const image = document.getElementById('image');
+    const images = document.getElementById('images');
     image_btn.addEventListener('click', renderPhotos)
 
     async function renderPhotos() { //GET all images
@@ -11,9 +11,14 @@ window.onload = function () {
                 return response.json();
             }).then(data => {
                 console.log(data);
-                image.innerHTML = ` 
-           <img src="${data[0].url}/>
-         `
+                images.innerHTML = '';
+                data.forEach(image => {
+                    const imagediv = document.createElement('img');
+                    imagediv.src = image.url
+                    imagediv.id = 'image'
+                    images.appendChild(imagediv);
+                    console.log(image.url);
+                });
             }).catch(error => {
                 console.log(error)
             })
@@ -21,7 +26,7 @@ window.onload = function () {
         //document.getElementById("results").innerHTML = img_result.innerHTML;
 
     }
-    renderPhotos();
+    //renderPhotos(); 
 }
 
 

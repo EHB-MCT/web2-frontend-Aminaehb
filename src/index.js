@@ -33,6 +33,7 @@ const showImages = (res) => {
     let imageContainer = document.createElement('div'); // create a div element in js
     res.filesUploaded.forEach(image => {
         let imageDiv = document.createElement('img');
+        savePhoto(image.filename, image.url);//call the function up in images
         console.log(image.url)
         imageDiv.setAttribute('src', image.url);
         imageContainer.appendChild(imageDiv);
@@ -40,35 +41,19 @@ const showImages = (res) => {
     document.body.appendChild(imageContainer);
 }
 
-window.onload = function () {
+//POST METHOD 
+async function savePhoto(filename, url) {
 
-
-
-    async function createText() {
-        let challengeId = document.getElementById('id').value;
-        let challengeFilename = document.getElementById('filename').value;
-        let challengeUrl = document.getElementById('url').value;
-
-        fetch(`..`, {
-            method: "POST",
-            headers: {
-                'Content-Type': 'application/json',
-            },
-            body: JSON.stringify({
-                id: challengeId,
-                filename: challengeFilename,
-                url: challengeUrl
-            })
-
-        }).then(response => {
-            return response.json()
-        }).then(data => {
-            console.log('Success:', data);
+    const response = await fetch('http://localhost:3000/savePhoto', {
+        method: "POST",
+        headers: {
+            'Content-Type': 'application/json'
+        },
+        body: JSON.stringify({
+            filename: filename,
+            url: url
         })
 
+    })
 
-
-
-
-    }
 }
