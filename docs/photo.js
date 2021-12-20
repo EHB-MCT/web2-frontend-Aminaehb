@@ -30,5 +30,4 @@ window.onload = function () {
 }
 
 
-//const image = document.getElementById('image');
-//image.src = data.message
+//image.src = data.url

@@ -85,22 +85,16 @@
 
  }
 
- h2 {
+ h2,
+ h3,
+ h4 {
      margin: 10px;
      text-align: center;
- }
-
- h3 {
-     text-align: center;
-     margin: 10px;
+     font-family: uni sans;
  }
 
  p {
      text-align: center;
- }
-
- #upload {
-     color: black;
  }
 
  .fa a {
@@ -125,20 +119,37 @@
 
  /*//////////////////////////// END IMAGES///////////////////////////////*/
  /*//////////////////////////// GET IMAGES///////////////////////////////*/
+ #image_btn {
+     border: 3px solid black;
+     padding-left: 25px;
+     padding-right: 25px;
+     padding-top: 13px;
+     padding-bottom: 10px;
+     font-weight: 100;
+     font-family: uni sans;
+     font-weight: bolder;
+     margin-top: 5vh;
+     margin-left: 37vw;
+     margin-bottom: 5vh;
+ }
+
+ #image_btn:hover {
+     border: 3px solid black;
+     box-shadow: 10px 10px 5px black;
+ }
+
 
  #image {
-     display: flex;
-     align-items: center;
-     justify-content: center;
-     height: 500px;
-     width: 500px;
+     height: 380px;
+     width: 380px;
      padding: 5px;
-     padding-left: 10vw;
+     padding-left: 5vw;
+     padding-bottom: 10vh;
  }
 
 
 
- 
+
 
 
 
