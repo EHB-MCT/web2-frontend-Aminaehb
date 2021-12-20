@@ -2,7 +2,7 @@
  body {
     margin: 0;
     font-family: "quicksilver";
-    background-image: url(/docs/images/bglocation.png);
+    background-image: url(./images/bglocation.png);
     background-size: 100%;
     background-repeat: no-repeat;
     background-position: center;

@@ -7,7 +7,7 @@
 body {
     margin: 0;
     font-family: "quicksilver";
-    background-image: url(/docs/MeltingPotKilo/pulls/bgitemspulls.png);
+    background-image: url(./images/bgitemspulls.png);
     background-size: 100%;
     background-repeat: no-repeat
 }
@@ -192,7 +192,7 @@ a li {
 .details {
     float: right;
     margin-top: 75px;
-    margin-left: 25px;
+    margin-left: 5px;
 }
 
 .details h1 {

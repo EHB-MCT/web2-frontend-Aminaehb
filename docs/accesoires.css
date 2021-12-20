@@ -7,7 +7,7 @@
 body {
     margin: 0;
     font-family: "quicksilver";
-    background-image: url(/docs/images/bgaccesoires.png);
+    background-image: url(./images/bgaccesoires.png);
     background-size: 120%;
     background-repeat: no-repeat
 }

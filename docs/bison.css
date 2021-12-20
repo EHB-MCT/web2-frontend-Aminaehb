@@ -7,7 +7,7 @@
  body {
      margin: 0;
      font-family: "quicksilver";
-     background-image: url(/docs/bison4/bgbison.png);
+     background-image: url(./images/bgbison.png);
      background-size: 100%;
      background-repeat: no-repeat;
  }
