@@ -1,10 +1,5 @@
  /*////////////////////////////HEADER///////////////////////////////*/
- @font-face {
-     font-family: "uni-sans";
-     src: url("./font/quicksilver_3/uni-sans/") format("woff2"),
-         url("./font/quicksilver_3/uni-sans/") format("woff");
- }
-
+ 
  body {
      margin: 0;
      font-family: "quicksilver";
