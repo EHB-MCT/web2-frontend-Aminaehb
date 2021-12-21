@@ -1,4 +1,8 @@
  /*////////////////////////////HEADER///////////////////////////////*/
+ @font-face {
+     font-family: "quicksilver";
+     src: url("./quicksilver_3/Quicksilver.ttf") format("quicksilver"),
+ }
 
  body {
      margin: 0;
@@ -6,6 +10,7 @@
      background-image: url(./images/background.png);
      background-size: 100%;
      background-repeat: no-repeat;
+     font-family: "quicksilver";
  }
 
 
@@ -54,17 +59,12 @@
      color: rgba(0, 0, 0, 0.500);
  }
 
- @font-face {
-     font-family: "quicksilver";
-     src: url("./quicksilver_3/Quicksilver.ttf") format("quicksilver"),
- }
 
  nav a {
      text-decoration: none;
      color: black;
      font-size: 20px;
      padding-right: 100px;
-     font-family: "quicksilver";
  }
 
  .icon-camera:before {

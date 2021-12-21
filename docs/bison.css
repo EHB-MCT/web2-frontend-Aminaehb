@@ -1,4 +1,9 @@
  /*////////////////////////////HEADER///////////////////////////////*/
+ @font-face {
+     font-family: "quicksilver";
+     src: url("./quicksilver_3/Quicksilver.ttf") format("quicksilver"),
+ }
+
  * {
      box-sizing: border-box;
  }
@@ -10,6 +15,8 @@
      background-image: url(./images/bgbison.png);
      background-size: 100%;
      background-repeat: no-repeat;
+     font-family: "quicksilver";
+
  }
 
 
