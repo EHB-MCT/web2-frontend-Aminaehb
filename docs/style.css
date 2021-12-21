@@ -54,6 +54,11 @@
      color: rgba(0, 0, 0, 0.500);
  }
 
+ @font-face {
+     font-family: "quicksilver";
+     src: url("./quicksilver_3/Quicksilver.ttf") format("quicksilver"),
+ }
+
  nav a {
      text-decoration: none;
      color: black;
