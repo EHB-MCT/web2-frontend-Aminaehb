@@ -1,5 +1,9 @@
  /*////////////////////////////HEADER///////////////////////////////*/
- 
+ @font-face {
+     font-family: "quilsilver";
+     src: url("./quicksilver_3/Quicksilver.ttf") format("Quicksilver"),
+ }
+
  body {
      margin: 0;
      font-family: "quicksilver";
@@ -36,10 +40,12 @@
 
  }
 
+
  nav ul {
      margin: 0;
      padding: 0;
      list-style: none;
+     font-family: "quicksilver";
  }
 
  nav li {

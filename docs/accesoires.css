@@ -1,7 +1,5 @@
 /*////////////////////////////HEADER///////////////////////////////*/
 
-
-
 * {
     box-sizing: border-box;
 }
@@ -41,10 +39,12 @@ nav {
     float: right;
 }
 
+
 nav ul {
     margin: 0;
     padding: 0;
     list-style: none;
+    font-family: "quicksilver";
 }
 
 nav li {
