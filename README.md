@@ -5,5 +5,5 @@ web2-frontend-Aminaehb created by GitHub Classroom
 - polaroid effect on images in css: https://www.w3docs.com/snippets/css/how-to-create-polaroid-image-with-css.html
 - npm code: https://www.npmjs.com/package/filestack-js#whats-in-the-box
 - https://www.filestack.com/ 
-- upload from code: https://jsfiddle.net/gh/get/library/pure/filestack/filestack-js/tree/master/examples/picker
+- upload form from code: https://jsfiddle.net/gh/get/library/pure/filestack/filestack-js/tree/master/examples/picker
 
