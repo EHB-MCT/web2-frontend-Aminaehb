@@ -1,8 +1,25 @@
  /*////////////////////////////HEADER///////////////////////////////*/
  @font-face {
-     font-family: "quicksilver";
-     src: url("./quicksilver_3/Quicksilver.ttf") format("quicksilver"),
- }
+    font-family: 'quicksilver';
+    src: url("./font/Quicksilver\ 400.otf");
+}
+
+@font-face {
+    font-family: 'uni-sans';
+    src: url("./font/Uni\ Sans\ Demo\ Heavy\ CAPS\ 700.otf");
+    src: url("./font/Uni\ Sans\ Demo\ Heavy\ Italic\ Caps\ 700.otf");
+}
+@font-face {
+    font-family: 'uni-sans italic';
+    src: url("./font/Uni\ Sans\ Demo\ Heavy\ Italic\ Caps\ 700.otf");
+
+}
+@font-face {
+    font-family: 'uni-sans thin';
+    src: url("./font/Uni\ Sans\ Demo\ Thin\ CAPS\ 400.otf");
+
+}
+
 
  * {
      box-sizing: border-box;
@@ -64,11 +81,13 @@
      color: rgba(0, 0, 0, 0.500);
  }
 
+
  nav a {
      text-decoration: none;
      color: black;
      font-size: 20px;
      padding-right: 100px;
+     font-family: 'quicksilver';
  }
 
  .icon-camera:before {
@@ -141,7 +160,6 @@
  /*//////////////////////////// ABOUT CONTEXT///////////////////////////////*/
 
  .title h1 {
-     font-size: 40px;
      margin: 120px 0px 30px 400px;
      padding: 10px 45px 10px;
      width: 320px;
@@ -153,23 +171,25 @@
      font-size: 55px;
      width: 20%;
  }
+ 
 
  .title h2 {
-     font-family: uni sans;
-     font-weight: bolder;
+    font-family: 'uni-sans';
      font-size: 40px;
      margin: 20px 0px 0px 400px;
  }
 
  #second {
-     font-family: uni sans;
+     font-family: "uni-sans";
      font-size: 25px;
      font-weight: bolder;
      font-style: italic;
  }
 
+
+
  .title p {
-     font-family: uni sans;
+     font-family: "uni-sans thin";
      font-size: 25px;
      margin: 10px 0px 0px 400px;
      text-shadow: 3px 1px 10px white;

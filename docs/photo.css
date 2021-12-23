@@ -1,4 +1,26 @@
  /*////////////////////////////HEADER///////////////////////////////*/
+ @font-face {
+     font-family: "quicksilver";
+     src: url("./font/Quicksilver\ 400.otf");
+ }
+
+ @font-face {
+     font-family: 'uni-sans';
+     src: url("./font/Uni\ Sans\ Demo\ Heavy\ CAPS\ 700.otf");
+ }
+
+ @font-face {
+     font-family: 'uni-sans italic';
+     src: url("./font/Uni\ Sans\ Demo\ Heavy\ Italic\ Caps\ 700.otf");
+
+ }
+
+ @font-face {
+     font-family: 'uni-sans thin';
+     src: url("./font/Uni\ Sans\ Demo\ Thin\ CAPS\ 400.otf");
+ }
+
+
  body {
      margin: 0;
      font-family: "quicksilver";
@@ -90,7 +112,8 @@
  h4 {
      margin: 10px;
      text-align: center;
-     font-family: uni sans;
+     font-weight: 300;
+     font-family: "uni-sans";
  }
 
  p {
@@ -125,8 +148,8 @@
      padding-right: 25px;
      padding-top: 13px;
      padding-bottom: 10px;
-     font-weight: 100;
-     font-family: uni sans;
+     font-weight: 300;
+     font-family: "uni-sans";
      font-weight: bolder;
      margin-top: 5vh;
      margin-left: 34vw;
@@ -146,6 +169,7 @@
      padding-left: 5vw;
      padding-bottom: 10vh;
  }
+
  /*//////////////////////////// END GET IMAGES///////////////////////////////*/
  /*////////////////////////////FOOTER///////////////////////////////*/
  footer {

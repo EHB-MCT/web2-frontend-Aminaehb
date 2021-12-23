@@ -1,4 +1,25 @@
 /*////////////////////////////HEADER///////////////////////////////*/
+@font-face {
+    font-family: "quicksilver";
+    src: url("./font/Quicksilver\ 400.otf");
+}
+
+@font-face {
+    font-family: 'uni-sans';
+    src: url("./font/Uni\ Sans\ Demo\ Heavy\ CAPS\ 700.otf");
+}
+
+@font-face {
+    font-family: 'uni-sans italic';
+    src: url("./font/Uni\ Sans\ Demo\ Heavy\ Italic\ Caps\ 700.otf");
+
+}
+
+@font-face {
+    font-family: 'uni-sans thin';
+    src: url("./font/Uni\ Sans\ Demo\ Thin\ CAPS\ 400.otf");
+}
+
 * {
     box-sizing: border-box;
 }
@@ -140,7 +161,7 @@ a li {
 }
 
 .container {
-    margin-right: 14vw;
+    margin-right: 10vw;
 }
 
 .column1,
@@ -204,17 +225,16 @@ a li {
 }
 
 .details #price {
-    font-weight: 300;
     font-size: 40px;
-    font-family: uni sans;
-    font-weight: bolder;
+    font-weight: 300;
+    font-family: "uni-sans";
 
 }
 
 .details #shop {
     font-size: 20px;
-    font-family: uni sans;
-    font-weight: bolder;
+    font-weight: 300;
+    font-family: "uni-sans";
 }
 
 
@@ -224,12 +244,13 @@ a li {
     font-size: 20px;
     right: 22vw;
     position: absolute;
-    font-family: uni sans;
-    font-weight: bolder;
+    font-weight: 300;
+    font-family: "uni-sans";
 }
 
 .details .list li {
-    font-style: italic;
+    font-weight: 300;
+    font-family: "uni-sans italic";
 }
 
 /*//////////////////////////// END ITEM WITH INFO///////////////////////////////*/
@@ -298,7 +319,8 @@ a li {
 .teddy h4 {
     position: absolute;
     font-size: 25px;
-    font-weight: 200;
+    font-weight: 300;
+    font-family: "uni-sans";
     bottom: 30px;
     left: 100px;
 }
@@ -308,7 +330,8 @@ a li {
     font-size: 17px;
     bottom: 10px;
     left: 100px;
-    font-family: uni sans;
+    font-weight: 300;
+    font-family: "uni-sans thin";
 }
 
 

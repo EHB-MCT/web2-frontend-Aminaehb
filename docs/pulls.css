@@ -1,4 +1,25 @@
 /*////////////////////////////HEADER///////////////////////////////*/
+@font-face {
+    font-family: "quicksilver";
+    src: url("./font/Quicksilver\ 400.otf");
+}
+
+@font-face {
+    font-family: 'uni-sans';
+    src: url("./font/Uni\ Sans\ Demo\ Heavy\ CAPS\ 700.otf");
+}
+
+@font-face {
+    font-family: 'uni-sans italic';
+    src: url("./font/Uni\ Sans\ Demo\ Heavy\ Italic\ Caps\ 700.otf");
+
+}
+
+@font-face {
+    font-family: 'uni-sans thin';
+    src: url("./font/Uni\ Sans\ Demo\ Thin\ CAPS\ 400.otf");
+}
+
 * {
     box-sizing: border-box;
 }
@@ -148,24 +169,20 @@ a li {
 
 /*//////////////////////////// END MAIN BUTTONS///////////////////////////////*/
 /*//////////////////////////// ITEMS WITH PRICES ///////////////////////////////*/
-
-
-
 .row {
     margin: 8px -16px;
-
-
 }
 
 .content h3,
 .content1 h3 {
-    font-weight: 100;
+    font-weight: 300;
+font-family: "uni-sans";
 }
 
 .content p,
 .content1 p {
-    font-family: Uni sans;
-    font-weight: light;
+    font-weight: 300;
+    font-family: "uni-sans thin";
 }
 
 

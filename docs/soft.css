@@ -1,4 +1,23 @@
 /*////////////////////////////HEADER///////////////////////////////*/
+@font-face {
+    font-family: "quicksilver";
+    src: url("./font/Quicksilver\ 400.otf");
+}
+
+@font-face {
+    font-family: 'uni-sans';
+    src: url("./font/Uni\ Sans\ Demo\ Heavy\ CAPS\ 700.otf");
+}
+@font-face {
+    font-family: 'uni-sans italic';
+    src: url("./font/Uni\ Sans\ Demo\ Heavy\ Italic\ Caps\ 700.otf");
+
+}
+@font-face {
+    font-family: 'uni-sans thin';
+    src: url("./font/Uni\ Sans\ Demo\ Thin\ CAPS\ 400.otf");
+}
+
 * {
     box-sizing: border-box;
 }
@@ -199,15 +218,14 @@ a li {
 
 .details #price {
     font-weight: 300;
+    font-family: "uni-sans";
     font-size: 40px;
-    font-family: uni sans;
-    font-weight: bolder;
 }
 
 .details #shop {
     font-size: 20px;
-    font-family: uni sans;
-    font-weight: bolder;
+    font-weight: 300;
+    font-family: "uni-sans";
 }
 
 .details .list {
@@ -216,12 +234,13 @@ a li {
     font-size: 20px;
     right: 19vw;
     position: absolute;
-    font-family: uni sans;
-    font-weight: bolder;
+    font-weight: 300;
+    font-family: "uni-sans";
 }
 
 .details .list li {
-    font-style: italic;
+    font-weight: 300;
+    font-family: "uni-sans italic";
 }
 
 
@@ -316,8 +335,9 @@ a li {
 .rings h4 {
     position: absolute;
     font-size: 25px;
-    font-weight: 200;
     bottom: 30px;
+    font-weight: 300;
+    font-family: "uni-sans";
 }
 
 .sunglasses h4,
@@ -341,7 +361,8 @@ a li {
     position: absolute;
     font-size: 17px;
     bottom: 10px;
-    font-family: uni sans;
+    font-weight: 300;
+    font-family: "uni-sans thin";
 }
 
 /*////////////////////////////END MATCH IT WITH///////////////////////////////*/

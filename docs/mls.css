@@ -1,4 +1,23 @@
 /*////////////////////////////HEADER///////////////////////////////*/
+@font-face {
+    font-family: "quicksilver";
+    src: url("./font/Quicksilver\ 400.otf");
+}
+
+@font-face {
+    font-family: 'uni-sans';
+    src: url("./font/Uni\ Sans\ Demo\ Heavy\ CAPS\ 700.otf");
+}
+@font-face {
+    font-family: 'uni-sans italic';
+    src: url("./font/Uni\ Sans\ Demo\ Heavy\ Italic\ Caps\ 700.otf");
+
+}
+@font-face {
+    font-family: 'uni-sans thin';
+    src: url("./font/Uni\ Sans\ Demo\ Thin\ CAPS\ 400.otf");
+}
+
 * {
     box-sizing: border-box;
 }
@@ -80,15 +99,12 @@ nav a {
 /*//////////////////////////// END HEADER///////////////////////////////*/
 /*//////////////////////////// MAIN BUTTONS///////////////////////////////*/
 
-
 .mainbuttons {
-    font-family: uni-sans;
     list-style: none;
     display: inline-block;
     margin-top: 10%;
     font-size: 18px;
     padding-left: 70px;
-    font-family: quicksilver;
     position: absolute;
 }
 
@@ -141,7 +157,7 @@ a li {
 .column2 {
     width: 10%;
     padding: 10px;
-    margin-left: 270px;
+    margin-left: 250px;
 }
 
 .column1 #img1 {
@@ -191,18 +207,20 @@ a li {
     border: 2px solid black;
     box-shadow: 10px 5px 5px black;
     border-radius: 25px;
-    font-weight: 300;
+  font-family: 'quicksilver';
     font-size: 55px;
 }
 
 .details #price {
     font-weight: 300;
     font-size: 35px;
+    font-family: "uni-sans";
 }
 
 .details #shop {
     font-weight: 200;
     font-size: 20px;
+    font-family: "uni-sans";
 }
 
 
@@ -212,12 +230,13 @@ a li {
     font-size: 20px;
     right: 22vw;
     position: absolute;
-    font-family: uni sans;
-    font-weight: bolder;
+    font-family: "uni-sans";
+    font-weight: 300;
 }
 
 .details .list li {
-    font-style: italic;
+    font-family: "uni-sans italic";
+    font-weight: 300;
 }
 
 
@@ -289,6 +308,7 @@ a li {
     font-weight: 300;
     margin-top: 5px;
     width: 400px;
+    font-family: 'quicksilver';
 }
 
 .rowchoose::after {
@@ -311,6 +331,7 @@ a li {
     font-size: 25px;
     font-weight: 200;
     bottom: 30px;
+    font-family: "uni-sans";
 }
 
 .sunglasses h4,
@@ -333,7 +354,7 @@ a li {
 .rings p {
     position: absolute;
     font-size: 17px;
-    font-family: uni sans;
+    font-family: "uni-sans thin";
     bottom: 10px;
 }
 

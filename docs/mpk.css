@@ -1,4 +1,25 @@
  /*////////////////////////////HEADER///////////////////////////////*/
+ @font-face {
+     font-family: "quicksilver";
+     src: url("./font/Quicksilver\ 400.otf");
+ }
+
+ @font-face {
+     font-family: 'uni-sans';
+     src: url("./font/Uni\ Sans\ Demo\ Heavy\ CAPS\ 700.otf");
+ }
+
+ @font-face {
+     font-family: 'uni-sans italic';
+     src: url("./font/Uni\ Sans\ Demo\ Heavy\ Italic\ Caps\ 700.otf");
+
+ }
+
+ @font-face {
+     font-family: 'uni-sans thin';
+     src: url("./font/Uni\ Sans\ Demo\ Thin\ CAPS\ 400.otf");
+ }
+
  * {
      box-sizing: border-box;
  }
@@ -101,8 +122,8 @@
  }
 
  a li:hover {
-    border: 3px solid black;
-    box-shadow: 10px 10px 5px black;
+     border: 3px solid black;
+     box-shadow: 10px 10px 5px black;
  }
 
  a li {
@@ -115,8 +136,8 @@
  }
 
  .aboutbutton #about {
-    border: 3px solid black;
-    box-shadow: 10px 10px 5px black;
+     border: 3px solid black;
+     box-shadow: 10px 10px 5px black;
      margin-top: 30px;
  }
 
@@ -132,35 +153,35 @@
  /*//////////////////////////// ABOUT CONTEXT///////////////////////////////*/
 
  .title h1 {
-    font-size: 40px;
-    margin: 120px 0px 30px 400px;
-    padding: 10px 45px 10px;
-    width: 320px;
-    font-weight: 200;
-    border: 2px solid black;
-    box-shadow: 10px 5px 5px black;
-    border-radius: 25px;
-    font-weight: 300;
-    font-size: 55px;
-    width: 20%;
+     font-size: 40px;
+     margin: 120px 0px 30px 400px;
+     padding: 10px 45px 10px;
+     width: 320px;
+     font-weight: 200;
+     border: 2px solid black;
+     box-shadow: 10px 5px 5px black;
+     border-radius: 25px;
+     font-weight: 300;
+     font-size: 55px;
+     width: 20%;
  }
 
  .title h2 {
-     font-family: uni sans;
+     font-weight: 300;
+     font-family: "uni-sans";
      font-size: 40px;
      margin: 20px 0px 0px 400px;
  }
 
  #secondtitle {
      font-size: 25px;
-     font-family: uni sans;
-     font-style: italic;
-     font-weight: bold;
+     font-weight: 300;
+     font-family: "uni-sans italic";
  }
 
  .title p {
-     font-family: uni sans;
-     font-weight: lighter;
+     font-weight: 300;
+     font-family: "uni-sans thin";
      font-size: 25px;
      margin: 10px 0px 0px 400px;
      text-shadow: 3px 1px 10px white;

@@ -1,3 +1,25 @@
+@font-face {
+    font-family: "quicksilver";
+    src: url("./font/Quicksilver\ 400.otf");
+}
+
+@font-face {
+    font-family: 'uni-sans';
+    src: url("./font/Uni\ Sans\ Demo\ Heavy\ CAPS\ 700.otf");
+}
+
+@font-face {
+    font-family: 'uni-sans italic';
+    src: url("./font/Uni\ Sans\ Demo\ Heavy\ Italic\ Caps\ 700.otf");
+
+}
+
+@font-face {
+    font-family: 'uni-sans thin';
+    src: url("./font/Uni\ Sans\ Demo\ Thin\ CAPS\ 400.otf");
+}
+
+
 body {
     margin: 0;
     font-family: "quicksilver";
@@ -14,16 +36,16 @@ body {
 h1 {
     text-align: center;
     margin-bottom: 5vh;
-    font-family: uni sans;
-    font-weight: bolder;
+    font-weight: 300;
+    font-family: "uni-sans";
 }
 
 .back {
     border: 3px solid black;
     padding: 15px 50px 5px 50px;
     font-weight: 100;
-    font-family: uni sans;
-    font-weight: bolder;
+    font-weight: 300;
+    font-family: "uni-sans";
     margin-left: 40vw;
     margin-bottom: 5vh;
     font-size: 60px;
